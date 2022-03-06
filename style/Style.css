@@ -1,0 +1,275 @@
+
+
+nav.navbar {
+    background-color: #fdecda;
+    margin-right:7.9%;
+    margin-left: 7.9%;
+}
+
+
+.buttons {
+    min-width: 700 px;
+    display: inline;
+    justify-content: space-around;
+    position: absolute;
+    left: 89%;
+    top: 25%;
+    
+    
+  }
+  
+  .buttons a {
+    text-decoration: none;
+    font-size: 18px;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    background: #DE5C9D;
+    color: #f1f1f1;
+    border-radius: 25%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, .5);
+    transition: all .4s ease-in-out;
+    
+    
+  }
+  
+  .buttons a:hover {
+    transform: scale(1.2);
+    color: #f1f1f1;
+  }
+
+    .imagen-pasteleria{
+        margin: 20px 0;
+        width: 100%;
+        height: 600px;
+        background: url(../images/pastel.jpg) no-repeat center center/cover;
+        background-size: cover;
+        background-attachment: fixed;
+        border-bottom: 20px solid #ffffff;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-end;
+    }
+    .imagen-pasteleria h1{
+        color:#FFFFFF;
+        font-weight: 800;
+        font-size: 45px;
+    }
+    .box-info{
+        padding: 1em;
+         color: #FFFFFF;
+        /*text-align: center;*/
+        width: 250px;
+        height: 300px;
+        margin: 20px 0;
+        background: #DE5C9D;
+        opacity: .9;
+    }
+    .box-info a{
+        color: #fdecda;
+        font-weight: bold;
+        text-decoration: none;
+        position: relative;
+        left: 60%;
+        bottom: 0%;
+    }
+    
+    .box-info a:hover{
+      color: #f3dbc3;
+      
+    }
+
+
+
+    /*Cards*/
+.container-card{
+	width: 100%;
+	display: flex;
+	max-width: 1100px;
+	margin: auto;
+}
+.title-cards{
+	width: 100%;
+	max-width: 1080px;
+	margin: auto;
+	padding: 20px;
+	margin-top: 20px;
+	text-align: center;
+	color: #6E4E37;
+  background-color: #fdecda;
+}
+.card{
+	width: 100%;
+	margin: 20px;
+	border-radius: 6px;
+	overflow: hidden;
+	background:#fff;
+	box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
+	transition: all 400ms ease-out;
+	
+}
+.card:hover{
+	box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
+	transform: translateY(-2%);
+  cursor: pointer;
+}
+.card img{
+	width: 100%;
+	height: 210px;
+}
+.card .contenido-card{
+	padding: 15px;
+	text-align: center;
+  
+}
+.card .contenido-card h4{
+	margin-bottom: 15px;
+	color: #7a7a7a;
+}
+.card .contenido-card p{
+	line-height: 1.8;
+	color: #EABE3F;
+	font-size: 14px;
+	margin-bottom: 5px;
+  font-weight: bold;
+}
+
+
+@media only screen and (min-width:320px) and (max-width:768px){
+	.container-card{
+		flex-wrap: wrap;
+	}
+	.card{
+		margin: 15px;
+	}
+}
+/*Fin-Cards*/
+
+/*Inicio-sabores*/
+.title-sabores{
+	width: 100%;
+	max-width: 1080px;
+	margin: auto;
+	padding: 20px;
+	margin-top: 20px;
+	text-align: center;
+	color: #6E4E37;
+  background-color: #fdecda;
+} 
+
+
+/*Fin-sabores*/
+
+
+/* formulario*/
+.title-pedidos{
+	width: 100%;
+	max-width: 1080px;
+	margin: auto;
+	padding: 20px;
+	margin-top: 20px;
+	text-align: center;
+	color: #6E4E37;
+  background-color: #fdecda;
+} 
+
+.container-formulario{
+	width: 100%;
+	max-width: 1080px;
+	margin: auto;
+	padding: 20px;
+	margin-top: 0px;
+	
+  
+	
+} 
+
+.container-formulario .form-label{
+  margin-top: 2%;
+  color: #DE5C9D;
+  font-weight: bold;
+  /*font-family: sans-serif;*/
+  font-size:larger ;
+}
+
+
+
+.container-formulario .form-check-label{
+  color: #6E4E37;
+  font-size:small ;
+  background: #fdecda;
+  
+}
+
+.container-formulario button{
+  background-color: #DE5C9D;
+  margin-top: 2.5%;
+  margin-left: 45.5%;
+  width: 100px;
+  
+}
+.container-formulario button:hover{
+  background-color: #da8eb4;
+  
+}
+
+
+/* formulario*/
+
+/*Tabla*/
+.container-tabla{
+	width: 100%;
+	max-width: 1080px;
+	margin: auto;
+	padding: 20px;
+	margin-top: 0px;
+  text-align: center;
+} 
+
+/*Tabla*/
+
+/*Para vista pastelero*/
+
+.card .contenido-card .Existencias{
+	line-height: 1.8;
+	color: #893fea;
+	font-size: 18px;
+	margin-bottom: 5px;
+  font-weight: bold;
+  
+}
+
+/*Para vista pastelero*/
+
+/* Modal */
+
+/* Modal */
+
+/*Footer*/
+.Footer{
+	background-color: black;
+  
+  margin-right:7.9%;
+  margin-left: 7.9%;
+  
+
+} 
+
+.Footer h2{
+text-align: center;
+color: white;
+
+}
+
+  .Footer .container-footer{
+    text-align: center;
+    color: white;
+    
+    }
+
+
+
+/*Fin-Footer*/
+
